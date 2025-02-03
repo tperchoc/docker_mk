@@ -17,7 +17,14 @@ if [ "$REMOTE_URL" != "$EXPECTED_URL" ]; then
   git remote set-url origin $EXPECTED_URL
 fi
 
-# Add all changes to the staging area
+# Ensure .gitignore is up to date
+echo "Updating .gitignore"
+echo "*.whl" >> .gitignore
+
+# Add .gitignore to the staging area
+git add .gitignore || { echo "Failed to add .gitignore to staging area"; exit 1; }
+
+# Add all other changes to the staging area
 git add . || { echo "Failed to add changes to staging area"; exit 1; }
 
 # Commit the changes
