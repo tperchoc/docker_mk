@@ -2,7 +2,7 @@
 
 # CGRA Tools 🚀
 
-Welcome to the **CGRA Tools** repository! This collection of Docker containers is designed for working on CGRAs (Coarse-Grained Reconfigurable Arrays).
+Welcome to the **CGRA Tools** repository! (work in progress) This collection of Docker containers is designed for working on CGRAs (Coarse-Grained Reconfigurable Arrays).
 
 ## Table of Contents
 - What is a CGRA? 🤔
