@@ -2,6 +2,18 @@
 
 Welcome to the **CGRA Tools** repository! Here you will find some interesting ready-to-use Docker containers for working on CGRAs (Coarse-Grained Reconfigurable Arrays).
 
+## Table of Contents
+- What is a CGRA? 🤔
+- Available Docker Containers 🐳
+- How to Use 🛠️
+- Contributing 🤝
+- License 📜
+- Acknowledgements 🙏
+
+## What is a CGRA? 🤔
+
+A **Coarse-Grained Reconfigurable Array (CGRA)** is a type of reconfigurable computing architecture that consists of an array of programmable processing elements. Unlike FPGAs (Field-Programmable Gate Arrays), which are fine-grained and operate at the bit level, CGRAs operate at a higher level of granularity, making them more efficient for certain types of computations. CGRAs are particularly well-suited for applications in signal processing, cryptography, and machine learning.
+
 ## Available Docker Containers 🐳
 
 - **docker_CGRAFlow** 📂
@@ -59,3 +71,4 @@ Special thanks to all the contributors and the open-source community!
 ---
 
 Feel free to reach out if you have any questions or need further assistance. Happy coding! 😊
+
