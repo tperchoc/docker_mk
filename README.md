@@ -59,4 +59,3 @@ Special thanks to all the contributors and the open-source community!
 ---
 
 Feel free to reach out if you have any questions or need further assistance. Happy coding! 😊
-```
