@@ -1,5 +1,3 @@
-
-```markdown
 # CGRA Flow 🚀
 
 ## Introduction
