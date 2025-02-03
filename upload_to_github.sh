@@ -2,7 +2,7 @@
 
 # Define variables
 REPO_DIR=~/Bureau/docker_mk
-BRANCH=main
+BRANCH=master  # Utiliser 'master' comme branche par défaut
 COMMIT_MESSAGE="Automated commit: Synchronize local changes with GitHub"
 
 # Navigate to the repository directory
