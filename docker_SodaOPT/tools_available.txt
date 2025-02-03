@@ -1,0 +1,11 @@
+soda-opt
+soda-translate
+mlir-opt
+mlir-translate
+flatbuffer_translate
+tf-mlir-translate
+tf-opt
+torch-mlir-opt - python packages available at /opt/torch-mlir/python_packages/torch_mlir
+bambu
+openroad - Requires exporting FLOW_HOME=/opt/openroad/openroad_flow_scripts/flow
+yosys

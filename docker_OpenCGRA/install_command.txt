@@ -1,0 +1,26 @@
+#Problem may occurs if not using wright python3.7
+
+sudo apt-get install python3.7
+sudo apt-get install -y graphviz
+sudo apt-get install git make autoconf g++ libfl-dev bison
+mkdir -p ${HOME}/src
+cd ${HOME}/src
+wget http://www.veripool.org/ftp/verilator-4.036.tgz
+tar -xzvf verilator-4.036.tgz
+cd verilator-4.036
+./configure
+make
+sudo make install
+sudo apt-get install git python-dev libffi-dev
+python3.7 -m venv ${HOME}/venv
+source ${HOME}/venv/bin/activate
+pip install git+https://github.com/tancheng/pymtl3.git
+pip install --upgrade pip setuptools twine
+pip install hypothesis
+pip list
+mkdir -p ${HOME}/cgra
+cd ${HOME}/cgra
+git clone https://github.com/pnnl/OpenCGRA.git
+
+#in working folder :
+pytest --tb=short -sv CGRARTL_test.py

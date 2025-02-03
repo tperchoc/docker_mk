@@ -1,0 +1,5 @@
+ xhost +local:docker
+docker run -it --name cgra-flow-container -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix cgra/cgra-flow:20241028
+source /WORK_REPO/venv/bin/activate
+cd CGRA-Flow/
+python launch.py

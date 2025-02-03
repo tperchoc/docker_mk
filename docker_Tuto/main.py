@@ -1,0 +1,1 @@
+print("Docker is magic!")
