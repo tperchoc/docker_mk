@@ -60,5 +60,3 @@ Special thanks to all the contributors and the open-source community!
 
 Feel free to reach out if you have any questions or need further assistance. Happy coding! 😊
 ```
-
-J'espère que cette version te plaît ! Si tu as besoin d'autres modifications ou ajouts, fais-le moi savoir. 😊

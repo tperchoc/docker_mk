@@ -17,9 +17,6 @@ if [ "$REMOTE_URL" != "$EXPECTED_URL" ]; then
   git remote set-url origin $EXPECTED_URL
 fi
 
-# Pull the latest changes from the remote repository
-git pull origin $BRANCH --rebase || { echo "Failed to pull latest changes"; exit 1; }
-
 # Add all changes to the staging area
 git add . || { echo "Failed to add changes to staging area"; exit 1; }
 
@@ -28,6 +25,9 @@ git commit -m "$COMMIT_MESSAGE" || { echo "Failed to commit changes"; exit 1; }
 
 # Push the changes to the remote repository
 git push origin $BRANCH || { echo "Failed to push changes to remote repository"; exit 1; }
+
+# Pull the latest changes from the remote repository
+git pull origin $BRANCH --rebase || { echo "Failed to pull latest changes"; exit 1; }
 
 # Print a success message
 echo "Changes have been successfully pushed to GitHub."
