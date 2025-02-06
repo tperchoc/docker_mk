@@ -10,7 +10,9 @@ CGRA Flow is a toolset for working with Coarse-Grained Reconfigurable Arrays (CG
 - X11 server running (for GUI applications)
 
 ## Installation 🛠️
-
+   ```bash
+   docker pull tperoc/cgra-flow
+   ```
 1. **Allow Docker to access your X server**:
    ```bash
    xhost +local:docker
