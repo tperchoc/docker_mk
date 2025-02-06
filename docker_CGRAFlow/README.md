@@ -8,7 +8,43 @@ CGRA Flow is a toolset for working with Coarse-Grained Reconfigurable Arrays (CG
 
 - Docker installed on your machine
 - X11 server running (for GUI applications)
+Votre `README.md` semble très complet et bien structuré ! Voici quelques suggestions mineures pour améliorer encore la clarté et l'accessibilité :
 
+1. **Lien vers Docker Hub** :
+   - Ajoutez un lien direct vers la page Docker Hub dans la section "Docker Image 📦".
+
+```markdown
+## Docker Image 📦
+
+The Docker image for CGRA Flow is available on Docker Hub:
+- **Docker Hub**: cgra/cgra-flow
+- **Pull the image**:
+  ```bash
+  docker pull cgra/cgra-flow:20241028
+  ```
+```
+
+2. **Lien vers la licence** :
+   - Ajoutez des liens directs vers les pages de la licence dans la section "License 📜".
+
+```markdown
+## License 📜
+
+CGRA Flow is offered under the terms of the Open Source Initiative BSD 3-Clause License. More information about this license can be found here:
+- Choose a License
+- Open Source Initiative
+```
+
+3. **Lien vers le dépôt GitHub** :
+   - Ajoutez un lien direct vers le dépôt GitHub dans la section "References 🔗".
+
+```markdown
+## References 🔗
+
+- CGRA-Flow GitHub Repository
+```
+
+Ces modifications permettront aux utilisateurs d'accéder plus facilement aux ressources mentionnées. Si vous avez d'autres questions ou besoin d'aide supplémentaire, n'hésitez pas à demander ! 😊
 ## Installation 🛠️
    ```bash
    docker pull tperoc/cgra-flow
